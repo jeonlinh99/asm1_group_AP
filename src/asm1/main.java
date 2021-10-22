@@ -42,14 +42,13 @@ public class main {
                         // to add new Student
                         student.inputData();
                         manager.add(student);
-                        System.out.println(student.toString());
+                      
                     break;}
                     case 2:{
                     // to add new Professor
                         profess.inputData();
                         manager.add(profess);
-                        System.out.println(profess.toString());
-                      
+                        
                     break;}
             
             
