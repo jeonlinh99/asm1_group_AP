@@ -118,7 +118,7 @@ public class People {
         address = sc.nextLine();
         System.out.println("Enter the Phone number:");
         phone = sc.nextInt();
-        System.out.println("Enter the department:");
+    
         
     }
 
