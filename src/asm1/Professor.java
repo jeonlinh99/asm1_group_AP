@@ -88,12 +88,12 @@ public class Professor extends People {
         return super.getId(); //To change body of generated methods, choose Tools | Templates.
     }
 
-    //@Override
-    //public String toString() {
-         //To change body of generated methods, choose Tools | Templates.
+    @Override
+    public String toString() {
+        System.out.println("The information of Professor:")
 
-      //  return super.toString() + "\nSalary=" + this.salary;
-    //}
+        return super.toString() + "\nSalary=" + this.salary;
+   }
 
    
 
@@ -106,13 +106,7 @@ public class Professor extends People {
           salary = sc.nextDouble();
     }
 
-    @Override
-    public void display() {
-                System.out.println("The information of Professor:");
-
-        super.display() ; //To change body of generated methods, choose Tools | Templates.
-        System.out.println("The salary of professor:" + salary);
-    }
+   
 
     @Override
     public void setDepartment(Department department) {
